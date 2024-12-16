@@ -3,7 +3,9 @@
     <header class="main-header">
       <nav>
         <router-link to="/">Home</router-link>
-        <router-link to="/dashboard" v-if="isAuthenticated">Dashboard</router-link>
+        <router-link to="/dashboard" v-if="isAuthenticated"
+          >Dashboard</router-link
+        >
         <router-link to="/login" v-else>Login</router-link>
       </nav>
     </header>

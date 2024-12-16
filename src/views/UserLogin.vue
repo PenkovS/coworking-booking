@@ -13,7 +13,8 @@
       <button type="submit">Login</button>
     </form>
     <p class="register-cta">
-      Don't have an account? <router-link to="/register">Register here</router-link>.
+      Don't have an account?
+      <router-link to="/register">Register here</router-link>.
     </p>
   </div>
 </template>
